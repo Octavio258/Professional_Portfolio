@@ -14,8 +14,8 @@ section {
 }
 
 header {
-    padding: 20px 35px;
-    color: teal;
+    padding: 35px 50px;
+    background-color: teal;
 }
 
 header nav {
@@ -26,7 +26,7 @@ header nav {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: burlywood;
+    background-color: burlywood;
 }
 
 header a {
@@ -40,12 +40,21 @@ header nav ul li {
 
 header nav ul li a {
     margin: 0 30px;
-    font-weight: lighter;
+    font-weight: bold;
     font-size: 22px;
 }
 
-footer {
-    background-color: coral;
+.my-info section h2 {
+    
+    color: whitesmoke;
     width: 100%;
     padding: 40px 35px;
+}
+
+.footer {
+    background-color: coral;
+}
+
+.my-info {
+    justify-content: center;
 }
