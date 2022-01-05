@@ -1,0 +1,41 @@
+container #projects {
+    
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects > * {
+padding: 10px;
+flex: 1 100%;
+}
+
+#featured-p {
+    width: 1;
+    flex-grow: 1;
+    align-self: start;
+}
+
+#other-p {
+flex-shrink: 3;
+align-self: auto;
+    
+}
+
+#my-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#avatar {
+    width: 200px;
+}
+
+#about-me{
+    flex: 1;
+}

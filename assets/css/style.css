@@ -44,7 +44,14 @@ header nav ul li a {
     font-size: 22px;
 }
 
-
+h2 {
+    color: whitesmoke;
+    background-color: teal;
+    border-radius: inherit;
+    border-color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 section h2 {
     color: whitesmoke;
